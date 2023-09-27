@@ -1,0 +1,18 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*Custom css*/
+.pagination-centered > nav > div.justify-between {
+    display: none !important;
+}
+
+.pagination-centered div.hidden {
+    display: flex !important;
+}
+.pagination-centered > nav{
+    margin: auto !important;
+    display: block !important;
+}
